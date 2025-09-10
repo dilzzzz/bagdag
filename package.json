@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "echo 'Vercel will serve files statically.'"
+    "build": "mkdir public && cp -r components services index.html index.tsx App.tsx types.ts constants.ts metadata.json public/"
   },
   "dependencies": {
     "@google/genai": "^1.19.0",
